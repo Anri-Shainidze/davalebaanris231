@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&family=Space+Grotesk:wght@300..700&display=swap");
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  width: 96%;
-}
 input {
   width: 100%;
   height: 45px;
@@ -14,9 +8,11 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input:active {
-  border: 1px solid;
-  outline: linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 96%;
 }
 .input-line {
   display: flex;
@@ -24,6 +20,10 @@ input:active {
   align-items: center;
   gap: 0.6rem;
   align-items: center;
+}
+input:active {
+  border: 1px solid;
+  outline: linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
 }
 #MM {
   width: 30%;
@@ -162,9 +162,7 @@ input[style*="borderColor: red"] {
 }
 
 
-.error-input:focus {
-  box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.5);
-}
+
 
 .in-mm {
     display: flex;
